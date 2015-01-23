@@ -1,0 +1,227 @@
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+	margin: 0;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+/* ======================== font styling */
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #f98039;
+}
+
+p, h6 {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+}
+
+h1 {
+	background: url(../images/logo.png) no-repeat;
+	margin: 0 auto;
+	text-indent: -9999px;
+	height: 55px;
+	display: inline-block;
+
+}
+
+header p {
+	margin: .5em 0;
+	font-size: .65em;
+	color: #cecece;
+	letter-spacing: 1px;
+}
+
+header {
+	text-align: center;
+	background-color: #151b26;
+	border-bottom: 2px solid #f98039;
+	color: #f0f0f0; 
+	padding-top: 1em;
+}
+
+
+
+
+
+.hook {
+	color: #f0f0f0;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 50px;
+	font-style: italic;
+}
+
+.banner {
+
+	background: url(../images/banner-mobile.png) no-repeat; 
+	background-size: cover;
+	background-position: right center;
+	margin: 0;
+	padding: 8em 3% .3em 3%;
+
+}
+
+.extraAbout {
+	display: none;
+}
+
+.navLinks {
+	list-style: none;
+	padding-left: 0;
+	max-width: 420px;
+}
+
+.navLinks a {
+	display: block;
+	border: 2px solid #f98039;
+	text-decoration: none;
+	padding: 1em;
+	color: #f0f0f0;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: .7em;
+	letter-spacing: 1px;
+}
+
+.navLinks li {
+	display: block;
+	margin-bottom: .5em;
+}
+
+
+h3 {
+	padding-top: 2.5em;
+	font-style: bold;
+	font-size: 1.5em;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+main {
+	padding: 0 3%;
+}
+
+main p {
+	margin: 0;
+	line-height: 1.5;
+}
+
+.divider {
+	border-bottom: 1px solid #f98039;
+	margin-top: 60px;
+	width: 15%;
+}
+
+h4 {
+	font-size: 1.3em;
+	margin: 60px 0 .5em 0;
+	
+}
+
+.practiceList {
+	padding-left: 0;
+	margin-left: 6%;
+	line-height: 1.5;
+}
+
+h5 {
+	margin-top: 60px;
+	font-size: 1.05em;
+
+}
+
+aside {
+	padding: 0 3%;
+}
+
+.subText {
+
+	font-size: .85em;
+	color: #8d9096;
+	line-height: 1.5;
+	margin-bottom: 0;
+}
+
+.textLink {
+	color: #f98039;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: .65em;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+
+.aliceName {
+	color: #8d9096;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.aliceService {
+	padding-left: 0;
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.aliceMore {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: .65em;
+	border: 2px solid #f98039;
+	display: block;
+	padding: 1em;
+	margin: 3em 0 8em 0;
+	max-width: 420px;
+
+}
+
+.aliceMore a {
+	text-decoration: none;
+	color: #f98039;
+	letter-spacing: 1px;
+
+}
+
+h6 {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding-bottom: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-weight: 400; 
+	color: #9da6ad;
+
+}
+footer {
+	text-align: center;
+	background-color: #151b26;
+	border-top: 2px solid #f98039;
+	padding-top: 1em;
+
+}
+
+footer a {
+	color: #9da6ad;
+	margin: 0;
+}
