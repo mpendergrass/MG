@@ -3,44 +3,45 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Murphy & Grantland, P.A.</title>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Lora:400,700,400italic' rel='stylesheet' type='text/css'>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Lora:400,700,400italic' rel='stylesheet' type='text/css'> -->
+		<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic|Pontano+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/styles.css">
 
 	</head>
 
 
 	<body>
-<!------------------------------------------------------------------- WRAPPER ---->	
-
-
-
-
 
 <!------------------------------------------------------------------- NAV BAR ---->	
 		<header>
-			<h1>Murphy & Grantland, P.A.</h1>
-			<p>803.782.4100</p>
+			<div class="wrapper clearfix">
+				<h1><a href="index.html">Murphy & Grantland, P.A.</a></h1>
+				<p>803.782.4100</p>
+			</div>
 		</header>
 
 
 
-<div class="wrapper">
+<div class="wrapper clearfix">
 
 
 
-<!------------------------------------------------ MARKETING AREA + NAV LINKS ---->
+<!------------------------------------------------ MARKETING AREA + NAV LINKS (for mobile) ---->
 
 		<div class="banner">
 			<h2 class="hook">Demanding justice in the<br> courtroom since 1997</h2>
 
 			<a class="extraAbout" href="#">about us</a>
+			
+			<div class="nav">
+				<ul class="navLinks">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Practice Areas</a></li>
+					<li><a href="attorneylist.html">Our Team</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
 
-			<ul class="navLinks">
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Practice Areas</a></li>
-				<li><a href="#">Our Team</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
 		</div>
 
 
@@ -85,7 +86,10 @@
 <!--------------------------------------------------------------- SUB CONTENT ---->
 		
 		<aside>
-		<div class="divider"></div>
+
+			<div class="divider news"></div>
+
+
 			<h5>Current News</h5>
 
 				<p class="subText">"Ron Diegel Presented a unit in law to the Herald Five Homeschooling Association."</p>
@@ -94,12 +98,19 @@
 				<p class="subText">"Ray Moore will speak at the 2009 South Carolina Defense Trial Attorney's Association..."</p>
 				<a class="textLink" href="#">read more</a>
 
+
+
+
 			<div class="divider"></div>
+
+
+
 
 			<h5>Featured Attorney</h5>
 				<div class="alice"><img  src="images/alice.png"></div>
 
 				<p class="aliceName">Alice Price Adams</p>
+				
 				<p class="subText">Service Areas:</p>
 					<ul class="aliceService">
 						<li class="subText">Worker's Compensation</li>
